@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXCLUSIVE BONUS: 10X Your Leads with My Lead Gen Secret</title>
+    <style>
+        /* Global Styles & Reset */
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        }
+        h1, h2, h3 {
+            color: #1a1a1a;
+            text-align: center;
+            line-height: 1.2;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.2em;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 0;
+            color: #FF4500;
+        }
+        .cta-button {
+            display: block;
+            width: 90%;
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(180deg, #FF4500 0%, #CC3700 100%);
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(255, 69, 0, 0.5);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 69, 0, 0.7);
+        }
+        /* Hero Section */
+        .hero {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .video-container {
+            position: relative;
+            max-width: 960px;
+            margin: 20px auto;
+            background-color: #000;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        .video-container iframe {
+            width: 100%;
+            height: 540px;
+            border: none;
+        }
+        .video-caption {
+            display: block;
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #555;
+        }
+        /* Bonus Grid */
+        .bonus-section {
+            padding: 40px 20px;
+        }
+        .bonus-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        @media (min-width: 768px) {
+            .bonus-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        .bonus-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+        .bonus-card h3 {
+            font-size: 1.4em;
+            color: #FF4500;
+            text-align: left;
+            margin-top: 0;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #eee;
+        }
+        .bonus-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0 0 0;
+        }
+        .bonus-card ul li {
+            position: relative;
+            padding-left: 25px;
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+        .bonus-card ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #008000;
+            font-weight: bold;
+        }
+        .value-tag {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-top: 15px;
+        }
+        .ribbon {
+            position: absolute;
+            top: 10px;
+            right: -30px;
+            background-color: #008000;
+            color: #fff;
+            padding: 5px 30px;
+            font-size: 0.8em;
+            font-weight: bold;
+            transform: rotate(45deg);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .value-band {
+            background-color: #FF4500;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: bold;
+            margin: 40px 0;
+        }
+        .value-band span {
+            font-size: 1.2em;
+            text-decoration: underline;
+        }
+        .faq-section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        details {
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-left: 5px solid #FF4500;
+        }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 1.1em;
+            color: #333;
+        }
+        details p {
+            padding-top: 10px;
+            margin-top: 10px;
+            border-top: 1px solid #ddd;
+            font-size: 0.95em;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8em;
+            color: #777;
+            border-top: 1px solid #eee;
+            margin-top: 40px;
+        }
+        .footer a {
+            color: #777;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .footer a:hover {
+            color: #FF4500;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>10X Your Leads: Get the Secret Blueprint to Turn $1/Day into 1000 Daily Leads</h1>
+        <h2>Claim Our Exclusive $328 Conversion Toolkit — FREE When You Join My Lead Gen Secret Today!</h2>
+
+        <!-- ✅ Added YouTube Video -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/3J2Sjfutwuk?si=msnar8TBEe7hJm-d"
+                title="My Lead Gen Secret Overview Video"
+                aria-label="Watch My Lead Gen Secret Overview Video"
+                allowfullscreen></iframe>
+        </div>
+
+        <span class="video-caption">Watch Overview & See How to Get 100 Leads Daily</span>
+
+        <a href="https://www.myleadgensecret.com/?rid=48435" target="_blank" class="cta-button">
+            YES! I Want 1000 Leads/Day & ALL 4 Bonuses!
+        </a>
+        <p style="font-size: 0.9em; color: #555;">(Click the button above to secure your My Lead Gen Secret account now)</p>
+    </div>
+
+    <!-- Product Overview -->
+    <div style="padding: 20px; text-align: center; max-width: 800px; margin: 0 auto;">
+        <h2 style="color: #1a1a1a; border-bottom: 2px solid #FF4500; padding-bottom: 10px;">Why My Lead Gen Secret is Your Best Investment</h2>
+        <p>My Lead Gen Secret (MLGS) provides you with 100 high-quality, permission-based Business Opportunity leads delivered to your account daily, along with a built-in mailing system. It's the lowest-cost, highest-value lead source available today. But the real secret is in the scaling...</p>
+        <ul style="list-style: disc; text-align: left; display: inline-block;">
+            <li>Get 100 fresh, targeted leads every 24 hours.</li>
+            <li>Use the built-in mailer to contact your leads in under 20 minutes.</li>
+            <li>Leads are interested in BizOpp/IM—the perfect audience for affiliate offers.</li>
+            <li>Scale to 200 leads/day by referring just one person.</li>
+        </ul>
+        <p style="margin-top: 20px; font-weight: bold;">Our exclusive bonus package is the missing link that turns those leads into a 10X profit machine.</p>
+    </div>
+
+    <!-- Bonus Section -->
+    <div class="bonus-section">
+        <h2 style="color: #FF4500;">Your Exclusive 4-Part Conversion Toolkit</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 40px;">These four bonuses are the complete strategy, content, and trust-building system you need to turn your 100 daily leads into 1000 daily leads and maximize your affiliate commissions.</p>
+
+        <div class="bonus-grid">
+
+            <!-- Bonus 1 -->
+            <div class="bonus-card">
+                <div class="ribbon">Included FREE</div>
+                <h3>The "MLGS 10X Stacking" Blueprint: 1000 Leads/Day</h3>
+                <p>The advanced, step-by-step guide to scaling your lead volume by 10X using the system's internal affiliate program.</p>
+                <ul>
+                    <li>Step-by-step guide to set up 5 accounts for 1000 leads/day.</li>
+                    <li>The exact "Parent-Child" chain setup for guaranteed 200 leads per account.</li>
+                    <li>The self-funding mechanism to make your 1000 leads virtually free.</li>
+                </ul>
+                <span class="value-tag">Real Value: $97</span>
+            </div>
+
+            <!-- Bonus 2 -->
+            <div class="bonus-card">
+                <div class="ribbon">Included FREE</div>
+                <h3>The Ultimate Subject Line & Open Rate Cheat Sheet</h3>
+                <p>Stop guessing! Get the proven content and deliverability secrets to ensure your emails land in the inbox and get clicked.</p>
+                <ul>
+                    <li>50 proven, copy-and-paste subject lines for the BizOpp audience.</li>
+                    <li>The 5 core psychological formulas to guarantee high open rates.</li>
+                    <li>Deliverability checklist to bypass the spam folder across all 5 accounts.</li>
+                </ul>
+                <span class="value-tag">Real Value: $67</span>
+            </div>
+
+            <!-- Bonus 3 -->
+            <div class="bonus-card">
+                <div class="ribbon">Included FREE</div>
+                <h3>The Offer Selection Matrix for Maximum Conversions</h3>
+                <p>A strategic 4-pillar scoring system to select only the most profitable affiliate offers that convert cold MLGS leads.</p>
+                <ul>
+                    <li>The 4-Pillar scoring system to choose high-EPC affiliate offers.</li>
+                    <li>How to map the funnel to ensure you earn commissions on all upsells.</li>
+                    <li>The 3 winning offer types that consistently convert MLGS leads.</li>
+                </ul>
+                <span class="value-tag">Real Value: $77</span>
+            </div>
+
+            <!-- Bonus 4 -->
+            <div class="bonus-card">
+                <div class="ribbon">Included FREE</div>
+                <h3>The "MLGS to YouTube" Traffic Bridge Blueprint</h3>
+                <p>The advanced trust-building strategy using simple, no-face videos to 10X your click-through rates and secure high-ticket sales.</p>
+                <ul>
+                    <li>The simple, no-face, 2-minute video review script for instant trust.</li>
+                    <li>The "Thumbnail Trick" to 10X your click-through rate from the MLGS mailer.</li>
+                    <li>How to build a passive traffic asset from every email you send.</li>
+                </ul>
+                <span class="value-tag">Real Value: $87</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Value Band -->
+    <div class="value-band">
+        Total Real Value: <span>$328</span> — Yours Free with My Lead Gen Secret
+    </div>
+
+    <!-- Final CTA -->
+    <div style="text-align: center; padding: 20px;">
+        <h2 style="color: #1a1a1a;">Ready to Start Generating 1000 Leads Per Day?</h2>
+        <p style="font-size: 1.1em;">Click the button below to join My Lead Gen Secret now and get instant access to our entire $328 bonus package.</p>
+        <a href="https://www.myleadgensecret.com/?rid=48435" target="_blank" class="cta-button">
+            JOIN MLGS NOW & CLAIM YOUR $328 BONUS PACKAGE!
+        </a>
+        <p style="font-size: 0.9em; color: #555;">(This exclusive bonus package is only available through our affiliate link.)</p>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="faq-section">
+        <h2 style="color: #1a1a1a;">Frequently Asked Questions</h2>
+
+        <details>
+            <summary>How do I claim these bonuses?</summary>
+            <p>Simply click any of the green buttons on this page and join My Lead Gen Secret using our affiliate link. Once you have completed your purchase, forward your receipt to <strong>matt@wealthprofitpath.com</strong>. We will verify your purchase and send you a link to download the entire bonus package within 24 hours.</p>
+        </details>
+
+        <details>
+            <summary>Are these bonuses compatible with the MLGS system?</summary>
+            <p>Absolutely. These bonuses were specifically created to solve the biggest challenges MLGS users face: scaling lead volume (10X Stacking), maximizing open rates (Subject Line Cheat Sheet), choosing the right products (Offer Matrix), and building trust (YouTube Bridge). They are 100% designed for the MLGS mailer and audience.</p>
+        </details>
+
+        <details>
+            <summary>Do I need to buy multiple accounts to get the 1000 leads/day?</summary>
+            <p>Yes. The "MLGS 10X Stacking" Blueprint details the strategy of setting up 5 accounts in a chain. This is the proven method used by top earners to leverage the affiliate program and scale to 1000 daily leads, making the entire system virtually self-funding through commissions.</p>
+        </details>
+
+        <details>
+            <summary>How long will these bonuses be available?</summary>
+            <p>This exclusive bonus package is only available for a limited time to new customers who join through our link. We reserve the right to pull this offer down at any moment without notice. We recommend securing your MLGS account and bonuses today.</p>
+        </details>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <p>Disclaimer: We are independent affiliates of My Lead Gen Secret. The results shown are not typical and require effort and strategy. We cannot guarantee you will earn any money using this system or these bonuses. All bonuses are created by Matt Houchins and are not officially endorsed by My Lead Gen Secret.</p>
+    <p>
+        <a href="#">Affiliates</a> |
+        <a href="#">Privacy Policy</a> |
+        <a href="#">Terms</a> |
+        <a href="#">Disclaimer</a> |
+        <a href="mailto:matt@wealthprofitpath.com">Support Desk</a>
+    </p>
+    <p>Copyright © Matt Houchins - All Rights Reserved | Contact: matt@wealthprofitpath.com | @mattinzane</p>
+</div>
+
+</body>
+</html>
